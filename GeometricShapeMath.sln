@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShapeMath", "GeometricShapeMath\GeometricShapeMath.csproj", "{E697D832-8490-4257-9C68-FA0CB67D1890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricShape.Unit tests", "GeometricShape.Unit tests\GeometricShape.Unit tests.csproj", "{F15BB544-B902-4FC3-A95F-7EA598FF4A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E697D832-8490-4257-9C68-FA0CB67D1890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E697D832-8490-4257-9C68-FA0CB67D1890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E697D832-8490-4257-9C68-FA0CB67D1890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E697D832-8490-4257-9C68-FA0CB67D1890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15BB544-B902-4FC3-A95F-7EA598FF4A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15BB544-B902-4FC3-A95F-7EA598FF4A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15BB544-B902-4FC3-A95F-7EA598FF4A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15BB544-B902-4FC3-A95F-7EA598FF4A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20721AEA-9D17-42AA-A766-9290BEB88112}
+	EndGlobalSection
+EndGlobal

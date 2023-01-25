@@ -1,0 +1,4 @@
+SELECT TOP (1000) dbo.ProductTable.ProductName, dbo.CategoryTable.CategoryName, dbo.ProductsByCategory.ProductId, dbo.ProductsByCategory.CategoryId
+FROM     dbo.CategoryTable LEFT OUTER JOIN
+                  dbo.ProductsByCategory ON dbo.CategoryTable.Id = dbo.ProductsByCategory.CategoryId LEFT OUTER JOIN
+                  dbo.ProductTable ON dbo.ProductsByCategory.ProductId = dbo.ProductTable.Id
